@@ -6,3 +6,12 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Cucumber and Allure reports
+allure-results/
+allure-report/
+reports/
+reports_backup/
+
+# Dependencies
+node_modules/
