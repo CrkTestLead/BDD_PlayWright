@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": { "test": "cucumber-js",
+  "test:report": "cucumber-js --format progress --format html:reports/cucumber-report.html --format allure-cucumberjs/reporter"},
   "keywords": [],
   "type": "commonjs",
   "devDependencies": {
